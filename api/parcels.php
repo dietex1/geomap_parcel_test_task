@@ -29,4 +29,8 @@
         ]
     ];
     }
+    echo json_encode([
+        'type' => 'FeatureCollection',
+        'features' => $places
+    ]);
 ?>
